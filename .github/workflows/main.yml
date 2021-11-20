@@ -26,6 +26,8 @@ jobs:
       run: |
         # запуск проверки проекта по flake8
         python -m flake8
+        # start venv
+        source venv/bin/activate
         # go to directory with manage.py
         cd infra_project/
         # run project
